@@ -1,0 +1,63 @@
+body{
+    font-family: 'Open Sans' , Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+
+
+header {
+    background-color: #033048;
+    padding: 25px;
+    overflow: hidden; /* clears child floats */
+}
+
+/* float make the element right or left */
+
+header h1 {
+    color: #fff;
+    font-weight: 680;
+    float: left;
+    font-size: 48px;
+    margin-left: 40px;
+}
+
+header nav {
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+header li {
+    display: inline;
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+header li a {
+    color: #f9e42e;
+    text-decoration : none;
+    
+}
+/* ----------------------------------------------- Section Hero ------------------------------------------------------------------ */
+
+#hero {
+    background: url(../images/header_bg.jpg) no-repeat top center #131E27; /* to make the img in center with no repeat and the extra space 
+    on right and left with black color */
+    height: 700px;;
+}
+.container {
+    width: 100px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#hero h2 {
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600px;
+    padding-top: 120px;
+    margin-bottom: 120px;
+}
+
+
