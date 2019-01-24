@@ -1,63 +1,192 @@
-body{
-    font-family: 'Open Sans' , Arial, Helvetica, sans-serif;
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 300;
-}
+    line-height: 1,4;
+  }
+  a {
+      text-decoration: none;
+  }
 
-
-
-header {
-    background-color: #033048;
+  .container {
+    width: 100%;
+    min-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  
+  header {
+    background: #033048;
     padding: 25px;
-    overflow: hidden; /* clears child floats */
-}
-
-/* float make the element right or left */
-
-header h1 {
+    overflow: hidden;
+    /* clears child floats */
+  }
+  
+  header h1 {
     color: #fff;
     font-weight: 680;
     float: left;
     font-size: 48px;
-    margin-left: 40px;
-}
-
-header nav {
+    margin-left: 120px;
+  }
+  
+  header nav {
     float: right;
     margin-right: 40px;
     margin-top: 15px;
-}
-
-header li {
-    display: inline;
+  }
+  
+  header li {
+    display: inline-block;
     font-size: 24px;
     margin-right: 40px;
-}
-
-header li a {
+  }
+  
+  header li a {
     color: #f9e42e;
-    text-decoration : none;
-    
-}
-/* ----------------------------------------------- Section Hero ------------------------------------------------------------------ */
-
-#hero {
-    background: url(../images/header_bg.jpg) no-repeat top center #131E27; /* to make the img in center with no repeat and the extra space 
+   
+  }
+  /* ----------------------------------------------- Section Hero ------------------------------------------------------------------ */
+  #hero {
+    background: url("../images/header_bg.jpg") no-repeat top center #131E27; /* to make the img in center with no repeat and the extra space 
     on right and left with black color */
-    height: 700px;;
-}
-.container {
-    width: 100px;
-    max-width: 960px;
+    height: 700px;
+    padding-top: 32px;
+  }
+  
+  .container {
+    width: 100%;
+    min-width: 960px;
     margin: 0 auto;
-}
-
-#hero h2 {
+  }
+  
+  #hero h2 {
     font-size: 48px;
     text-align: center;
-    color: #fff;
-    font-weight: 600px;
-    padding-top: 120px;
+    color: white;
+    font-weight: 600;
+    margin-top: 120px;
     margin-bottom: 120px;
+  }
+
+  .button {
+      text-align: center;
+      display: block;
+      width: 280px;
+      font-size: 28px;
+      font-weight: 800px;
+      margin: 0 auto;
+      padding: 12px 0 ;
+      border-radius: 5px;
+  }
+
+  .button-yellow {
+      background: #f9e42e;
+      color: #033048;
+  }
+  .button-blue{
+    background: #033048;
+    color: #fff;
+  }
+
+  /* ----------------------------------------------- Section Benefits ------------------------------------------------------------------ */
+  .container {
+    width: 100%;
+    min-width: 960px;
+    margin: 0 auto;
+  }
+  #benefits {
+    padding-top: 100px;
+    margin-left: 300px;
+  }
+  
+  #benefits h3 {
+    color: #033048;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+
+  #benefits p, #benefits ul {
+      width: 600px;
+      font-size: 26px;
+      font-weight: 300px;
+  }
+
+  #benefits ul {
+      margin-bottom: 80px;
+      list-style: disc;
+      margin-left: 80px;
+      margin-top: 30px;
+  }
+/* ----------------------------------------------- Section Review ------------------------------------------------------------------ */
+
+
+
+#review {
+    background: url(../images/testimonial_bg.jpg) no-repeat top center #131E27;
+    color: #fff;
+    padding: 70px;
+ 
 }
+
+#review blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+    width: 720px;
+
+}
+
+blockquote span {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+/* ----------------------------------------------- Section call to action ------------------------------------------------------------------ */
+#call-to-action {
+        background: #f9e42e;
+        padding-top: 40px;
+        padding-bottom: 40px;
+}
+
+/* ----------------------------------------------- Section Footer ------------------------------------------------------------------ */
+footer {
+    background: #131E27;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer h4 {
+    color: #f9e42e;
+    margin-bottom: 60px;
+    font-weight: 680px;
+    font-size: 48px;
+}
+footer ul {
+    margin-bottom: 60px;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
 
 
